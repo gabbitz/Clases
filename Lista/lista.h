@@ -122,9 +122,9 @@ void Lista<T>::eliminar(int pos){
 		}
 
 		n--;
-	}else{
+	}/*else{
 		cout << "ERROR no se puede eliminar esta pos en la lista, pues la lista es vacia" << endl;
-	}
+	}*/
 }
 template <class T>
 void Lista<T>:: modificar(T elemento, int pos){
